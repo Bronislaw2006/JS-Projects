@@ -35,3 +35,4 @@ function addTask(taskText) {
 
     todoList.appendChild(listItem);
 }
+
