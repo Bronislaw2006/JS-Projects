@@ -43,3 +43,13 @@ To run this project, simply open the `index.html` file in any modern web browser
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/digital-clock.git
+   Navigate to the project directory and open the index.html file in your browser.
+
+   /Digital-Clock
+    ├── index.html       # The main HTML file that contains the structure of the clock.
+    ├── script.js        # The JavaScript file that updates the clock every second.
+    └── styles.css       # The CSS file that handles the styling of the clock and page layout.
+
+index.html: Contains the HTML markup for the clock container.
+styles.css: Defines the styles for the clock and positions it in the center of the screen.
+script.js: Updates the clock time every second and formats the time display.
