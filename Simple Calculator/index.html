@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
+    <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="calculator">
+        <!-- Header for the calculator -->
         <h1>CALCULATOR</h1>
+        
+        <!-- Display section to show the numbers and result -->
         <div class="display" id="display"></div>
+
+        <!-- Calculator buttons for numbers and operators -->
         <div class="buttons">
+            <!-- Clear button clears the display -->
             <button class="button clear" onclick="clearDisplay()">C</button>
+            
+            <!-- Operator buttons -->
             <button class="button operator" onclick="appendToDisplay('/')">/</button>
             <button class="button operator" onclick="appendToDisplay('*')">*</button>
             <button class="button operator" onclick="appendToDisplay('-')">-</button>
             <button class="button operator" onclick="appendToDisplay('+')">+</button>
+            
+            <!-- Number buttons -->
             <button class="button" onclick="appendToDisplay('7')">7</button>
             <button class="button" onclick="appendToDisplay('8')">8</button>
             <button class="button" onclick="appendToDisplay('9')">9</button>
@@ -25,14 +36,23 @@
             <button class="button" onclick="appendToDisplay('1')">1</button>
             <button class="button" onclick="appendToDisplay('2')">2</button>
             <button class="button" onclick="appendToDisplay('3')">3</button>
+            
+            <!-- Button '0' spans two columns -->
             <button class="button double" onclick="appendToDisplay('0')">0</button>
+            
+            <!-- Decimal point button -->
             <button class="button" onclick="appendToDisplay('.')">.</button>
+            
+            <!-- Equal button to calculate the result -->
             <button class="button equal" onclick="calculateResult()">=</button>
         </div>
     </div>
+    
+    <!-- Link to the external JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
 

@@ -4,7 +4,7 @@ html, body {
     margin: 0;
 }
 
-/* Center the calculator both horizontally and vertically */
+/* Center the calculator both horizontally and vertically on the page */
 body {
     display: flex;
     justify-content: center;
@@ -13,38 +13,38 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Style the calculator */
+/* Style the calculator container */
 .calculator {
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: #fff;
     padding: 10px;
-    width: 240px; /* Adjusted width for mobile size */
+    width: 240px; /* Optimized for mobile screen sizes */
 }
 
-/* Style for the display area */
+/* Style the display area where numbers and results appear */
 .display {
     background: #333;
     color: #fff;
-    font-size: 2em; /* Ensure the font size is large enough for visibility */
+    font-size: 2em; /* Large font size for easy visibility */
     padding: 10px;
     border-radius: 5px;
-    text-align: right;
+    text-align: right; /* Align text to the right */
     margin-bottom: 10px;
-    overflow: hidden; /* Prevent text overflow */
+    overflow: hidden; /* Prevent overflow of text */
 }
 
-/* Style for button container */
+/* Style for the button container */
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px; /* Space between buttons */
+    grid-template-columns: repeat(4, 1fr); /* Create a 4-column grid for buttons */
+    gap: 5px; /* Adds space between buttons */
 }
 
-/* Style for buttons */
+/* General button style */
 .button {
-    height: 50px; /* Ensure buttons are tall enough */
+    height: 50px; /* Button height */
     font-size: 1.5em;
     cursor: pointer;
     background: #eee;
@@ -57,27 +57,28 @@ body {
 
 /* Style for operator buttons */
 .button.operator {
-    background: #f0ad4e;
+    background: #f0ad4e; /* Orange color for operators */
     color: white;
 }
 
-/* Style for buttons that span two columns */
+/* Style for buttons that span two columns (like '0' and 'C') */
 .button.double {
-    grid-column: span 2;
+    grid-column: span 2; /* Button takes two columns */
 }
 
-/* Style for clear button */
+/* Style for the 'C' (clear) button */
 .button.clear {
-    background: #d9534f;
+    background: #d9534f; /* Red color for clear button */
     color: white;
-    grid-column: span 2;
+    grid-column: span 2; /* Takes two columns */
 }
 
-/* Style for equal button */
+/* Style for the '=' (equals) button */
 .button.equal {
-    background: #5bc0de;
+    background: #5bc0de; /* Blue color for equals button */
     color: white;
-    grid-column: span 2;
+    grid-column: span 2; /* Takes two columns */
 }
+
 
 

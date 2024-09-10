@@ -1,3 +1,4 @@
+/* Basic styling for the body to center content and apply default font */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -8,6 +9,7 @@ body {
     background-color: #f0f0f0;
 }
 
+/* Styling for the quiz container */
 #quiz-container {
     background: #fff;
     border-radius: 8px;
@@ -16,11 +18,13 @@ body {
     width: 300px;
 }
 
+/* Style the title of the quiz */
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
+/* Style the answer option buttons */
 #options-container button {
     display: block;
     margin: 5px 0;
@@ -31,10 +35,12 @@ h1 {
     cursor: pointer;
 }
 
+/* Hover effect for the option buttons */
 #options-container button:hover {
     background-color: #f0f0f0;
 }
 
+/* Styling for the next question button */
 #next-button {
     margin-top: 20px;
     padding: 10px;
@@ -45,11 +51,14 @@ h1 {
     cursor: pointer;
 }
 
+/* Hover effect for the next question button */
 #next-button:hover {
     background-color: #0056b3;
 }
 
+/* Styling for the score display container */
 #score-container {
     margin-top: 20px;
     font-size: 18px;
 }
+

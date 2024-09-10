@@ -1,3 +1,4 @@
+/* Basic styles for the body to center content */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -6,84 +7,96 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* Full viewport height */
 }
 
+/* Container styles for the main content */
 .container {
     background: white;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 300px; /* Fixed width for the container */
 }
 
+/* Styles for the main heading */
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Space below the heading */
 }
 
+/* Styles for the form layout */
 form {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    justify-content: space-between; /* Space between input and button */
+    margin-bottom: 20px; /* Space below the form */
 }
 
+/* Styles for the input field */
 input[type="text"] {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-right: 10px; /* Space between input and button */
 }
 
+/* Styles for the button */
 button {
     padding: 10px;
     border: none;
-    background-color: #28a745;
+    background-color: #28a745; /* Green background */
     color: white;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* Hover effect for the button */
 button:hover {
-    background-color: #218838;
+    background-color: #218838; /* Darker green on hover */
 }
 
+/* Styles for the unordered list */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
+/* Styles for each list item */
 li {
     background: #f9f9f9;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Space between list items */
     padding: 10px;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Space between checkbox, text, and button */
     align-items: center;
 }
 
+/* Styles for completed tasks */
 li.completed {
     text-decoration: line-through;
-    color: #999;
+    color: #999; /* Gray color for completed tasks */
 }
 
+/* Styles for the checkbox */
 input[type="checkbox"] {
-    margin-right: 10px;
+    margin-right: 10px; /* Space between checkbox and task text */
 }
 
+/* Styles for the delete button */
 .delete-btn {
-    background-color: #dc3545;
+    background-color: #dc3545; /* Red background */
     color: white;
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* Hover effect for the delete button */
 .delete-btn:hover {
-    background-color: #c82333;
+    background-color: #c82333; /* Darker red on hover */
 }
 
 

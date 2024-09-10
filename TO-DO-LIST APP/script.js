@@ -1,29 +1,29 @@
-// Selecting elements
+// Selecting DOM elements
 const todoForm = document.getElementById('todo-form');
 const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
 
-// Add a new task
+// Add event listener to the form for adding new tasks
 todoForm.addEventListener('submit', function(event) {
-    event.preventDefault();  // Prevent the form from submitting in the traditional way
-    const taskText = todoInput.value.trim();  // Get and trim the input value
+    event.preventDefault();  // Prevent the default form submission
+    const taskText = todoInput.value.trim();  // Get the task text and trim whitespace
 
     if (taskText !== "") {
-        addTask(taskText);  // Add task to the list
+        addTask(taskText);  // Add the task to the list
         todoInput.value = '';  // Clear the input field
     }
 });
 
-// Function to add a new task
+// Function to create and add a new task
 function addTask(taskText) {
     const listItem = document.createElement('li');  // Create a new list item
 
-    // Create a checkbox for marking the task as completed
+    // Create a checkbox for the task
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.className = 'checkbox';
 
-    // Create a span to hold the task text
+    // Create a span for the task text
     const taskSpan = document.createElement('span');
     taskSpan.textContent = taskText;
 
@@ -32,12 +32,12 @@ function addTask(taskText) {
     deleteButton.textContent = 'Delete';
     deleteButton.className = 'delete-btn';
 
-    // Append elements to the list item
+    // Append the elements to the list item
     listItem.appendChild(checkbox);
     listItem.appendChild(taskSpan);
     listItem.appendChild(deleteButton);
 
-    // Add event listener to mark the task as completed
+    // Add event listener to checkbox to toggle task completion
     checkbox.addEventListener('change', function() {
         if (checkbox.checked) {
             listItem.classList.add('completed');
@@ -46,7 +46,7 @@ function addTask(taskText) {
         }
     });
 
-    // Add event listener to delete the task
+    // Add event listener to delete button to remove the task
     deleteButton.addEventListener('click', function() {
         todoList.removeChild(listItem);
     });
