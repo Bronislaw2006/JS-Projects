@@ -8,9 +8,6 @@ A simple digital clock that displays the current time in "HH:MM:SS" format, buil
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -50,6 +47,6 @@ To run this project, simply open the `index.html` file in any modern web browser
     ├── script.js        # The JavaScript file that updates the clock every second.
     └── styles.css       # The CSS file that handles the styling of the clock and page layout.
 
-index.html: Contains the HTML markup for the clock container.
-styles.css: Defines the styles for the clock and positions it in the center of the screen.
-script.js: Updates the clock time every second and formats the time display.
+index.html: Contains the HTML markup for the clock container.<br>
+styles.css: Defines the styles for the clock and positions it in the center of the screen.<br>
+script.js: Updates the clock time every second and formats the time display.<br>

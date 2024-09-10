@@ -1,3 +1,4 @@
+/* Basic styling for the page */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -5,33 +6,38 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Light grey background */
 }
 
+/* Main container styling */
 #color-picker {
-    text-align: center;
+    text-align: center; /* Center the content */
 }
 
+/* Styling for the color palette */
 #color-palette {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    margin-bottom: 20px;
+    display: flex; /* Align items in a row */
+    flex-wrap: wrap; /* Allow wrapping to multiple rows */
+    gap: 10px; /* Space between color boxes */
+    justify-content: center; /* Center the palette on the page */
+    margin-bottom: 20px; /* Space below the palette */
 }
 
+/* Individual color box styling */
 .color-box {
     width: 50px;
     height: 50px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 2px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: 2px solid #ccc; /* Light border around boxes */
 }
 
+/* Change border color on hover */
 .color-box:hover {
-    border-color: #999;
+    border-color: #999; /* Darker border when hovered */
 }
 
+/* Styling for the input field */
 #color-input {
     padding: 10px;
     font-size: 16px;
@@ -40,11 +46,13 @@ body {
     margin-bottom: 20px;
 }
 
+/* Styling for the color preview box */
 #color-preview {
     width: 100px;
     height: 100px;
-    border-radius: 5px;
-    border: 2px solid #ccc;
-    margin: 0 auto;
-    background-color: #ffffff;
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #ccc; /* Border around the preview */
+    margin: 0 auto; /* Center the preview box */
+    background-color: #ffffff; /* Default preview color (white) */
 }
+
