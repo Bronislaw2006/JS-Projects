@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tag for character encoding -->
     <meta charset="UTF-8">
+    <!-- Meta tag for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
-    <!-- Link to the external CSS file -->
+    <!-- Link to the external CSS file for styling -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -20,13 +22,13 @@
             <!-- Clear button clears the display -->
             <button class="button clear" onclick="clearDisplay()">C</button>
             
-            <!-- Operator buttons -->
+            <!-- Operator buttons with functions to append the operator to the display -->
             <button class="button operator" onclick="appendToDisplay('/')">/</button>
             <button class="button operator" onclick="appendToDisplay('*')">*</button>
             <button class="button operator" onclick="appendToDisplay('-')">-</button>
             <button class="button operator" onclick="appendToDisplay('+')">+</button>
             
-            <!-- Number buttons -->
+            <!-- Number buttons that append the respective number to the display -->
             <button class="button" onclick="appendToDisplay('7')">7</button>
             <button class="button" onclick="appendToDisplay('8')">8</button>
             <button class="button" onclick="appendToDisplay('9')">9</button>
@@ -40,18 +42,19 @@
             <!-- Button '0' spans two columns -->
             <button class="button double" onclick="appendToDisplay('0')">0</button>
             
-            <!-- Decimal point button -->
+            <!-- Decimal point button to append '.' to the display -->
             <button class="button" onclick="appendToDisplay('.')">.</button>
             
-            <!-- Equal button to calculate the result -->
+            <!-- Equal button that triggers the calculation of the result -->
             <button class="button equal" onclick="calculateResult()">=</button>
         </div>
     </div>
     
-    <!-- Link to the external JavaScript file -->
+    <!-- Link to the external JavaScript file for functionality -->
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
