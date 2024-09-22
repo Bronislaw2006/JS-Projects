@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Picker</title>
-    <!-- Link to the external CSS file for styling -->
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Color Picker</title> <!-- Sets the title of the web page (displayed on the browser tab) -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links an external CSS file (styles.css) for applying styles to the page -->
 </head>
 <body>
     <!-- Main container for the color picker -->
-    <div id="color-picker">
+    <div id="color-picker"> <!-- A container that wraps the entire color picker interface -->
         <!-- Title of the color picker app -->
-        <h1>Color Picker</h1>
+        <h1>Color Picker</h1> <!-- A heading (title) that introduces the color picker app -->
         
         <!-- Color palette containing predefined color boxes -->
-        <div id="color-palette">
-            <div class="color-box" style="background-color: #ff0000;"></div>
-            <div class="color-box" style="background-color: #00ff00;"></div>
-            <div class="color-box" style="background-color: #0000ff;"></div>
-            <div class="color-box" style="background-color: #ffff00;"></div>
-            <div class="color-box" style="background-color: #ff00ff;"></div>
-            <div class="color-box" style="background-color: #00ffff;"></div>
+        <div id="color-palette"> <!-- A container for the color palette made up of predefined color boxes -->
+            <!-- Individual color boxes with predefined background colors -->
+            <div class="color-box" style="background-color: #ff0000;"></div> <!-- A red color box -->
+            <div class="color-box" style="background-color: #00ff00;"></div> <!-- A green color box -->
+            <div class="color-box" style="background-color: #0000ff;"></div> <!-- A blue color box -->
+            <div class="color-box" style="background-color: #ffff00;"></div> <!-- A yellow color box -->
+            <div class="color-box" style="background-color: #ff00ff;"></div> <!-- A magenta color box -->
+            <div class="color-box" style="background-color: #00ffff;"></div> <!-- A cyan color box -->
         </div>
         
         <!-- Input field for entering hex color codes -->
-        <input type="text" id="color-input" placeholder="#ffffff" />
+        <input type="text" id="color-input" placeholder="#ffffff" /> <!-- A text input field where users can type a hex color code. The placeholder suggests "#ffffff" as an example -->
         
         <!-- Preview area that displays the selected or input color -->
-        <div id="color-preview"></div>
+        <div id="color-preview"></div> <!-- A div to preview the selected or input color. The background of this div will be dynamically updated based on the user's selection or input -->
     </div>
     
     <!-- Link to the external JavaScript file for functionality -->
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Links an external JavaScript file (script.js) that adds functionality to the color picker -->
 </body>
 </html>
+
 

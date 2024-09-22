@@ -1,58 +1,59 @@
 /* Basic styling for the page */
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, sans-serif; /* Set the font for the entire page to Arial with sans-serif as fallback */
+    display: flex; /* Use flexbox to center the content */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set the height of the page to cover the full viewport */
+    margin: 0; /* Remove default margin around the body */
+    background-color: #f0f0f0; /* Light grey background for the page */
 }
 
 /* Main container styling */
 #color-picker {
-    text-align: center; /* Center the content */
+    text-align: center; /* Center the content inside the color picker container */
 }
 
 /* Styling for the color palette */
 #color-palette {
-    display: flex; /* Align items in a row */
-    flex-wrap: wrap; /* Allow wrapping to multiple rows */
-    gap: 10px; /* Space between color boxes */
-    justify-content: center; /* Center the palette on the page */
-    margin-bottom: 20px; /* Space below the palette */
+    display: flex; /* Arrange color boxes in a row */
+    flex-wrap: wrap; /* Allow color boxes to wrap into multiple rows if needed */
+    gap: 10px; /* Set space between color boxes */
+    justify-content: center; /* Center the entire color palette within the container */
+    margin-bottom: 20px; /* Add space between the palette and the next element */
 }
 
 /* Individual color box styling */
 .color-box {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    border: 2px solid #ccc; /* Light border around boxes */
+    width: 50px; /* Set each color box's width */
+    height: 50px; /* Set each color box's height */
+    border-radius: 5px; /* Add rounded corners to the color boxes */
+    cursor: pointer; /* Show a pointer cursor when hovering over a color box */
+    border: 2px solid #ccc; /* Light grey border around each color box */
 }
 
 /* Change border color on hover */
 .color-box:hover {
-    border-color: #999; /* Darker border when hovered */
+    border-color: #999; /* Darken the border color when the user hovers over a box */
 }
 
 /* Styling for the input field */
 #color-input {
-    padding: 10px;
-    font-size: 16px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    padding: 10px; /* Add padding inside the input field */
+    font-size: 16px; /* Set the font size for the input text */
+    border: 2px solid #ccc; /* Light grey border around the input field */
+    border-radius: 5px; /* Add rounded corners to the input field */
+    margin-bottom: 20px; /* Add space below the input field */
 }
 
 /* Styling for the color preview box */
 #color-preview {
-    width: 100px;
-    height: 100px;
-    border-radius: 5px; /* Rounded corners */
-    border: 2px solid #ccc; /* Border around the preview */
-    margin: 0 auto; /* Center the preview box */
-    background-color: #ffffff; /* Default preview color (white) */
+    width: 100px; /* Set the width of the color preview box */
+    height: 100px; /* Set the height of the color preview box */
+    border-radius: 5px; /* Add rounded corners to the preview box */
+    border: 2px solid #ccc; /* Add a border around the preview box */
+    margin: 0 auto; /* Center the preview box horizontally */
+    background-color: #ffffff; /* Default background color for the preview box is white */
 }
+
 
