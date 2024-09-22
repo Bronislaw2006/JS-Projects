@@ -2,27 +2,31 @@
 <html lang="en">
 <head>
     <!-- Meta tags for character encoding and responsive design -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
+    <meta charset="UTF-8"> <!-- Defines the character encoding to be used for the document, set to UTF-8 for compatibility with most languages and special characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the page is responsive by setting the viewport width to the device width and enabling proper scaling -->
+    <title>Quiz Game</title> <!-- The title of the webpage that appears in the browser tab -->
     <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Connects to an external CSS file (styles.css) to apply styling to the page -->
 </head>
 <body>
     <!-- Main container for the quiz -->
     <div id="quiz-container">
-        <h1>Quiz Game</h1>
+        <h1>Quiz Game</h1> <!-- Heading for the quiz game -->
+        
         <!-- Container for displaying the current question -->
-        <div id="question-container"></div>
+        <div id="question-container"></div> <!-- This is where each quiz question will be dynamically inserted by JavaScript -->
+        
         <!-- Container for displaying the answer options -->
-        <div id="options-container"></div>
+        <div id="options-container"></div> <!-- This is where the possible answers (options) for each question will be displayed -->
+        
         <!-- Button to go to the next question -->
-        <button id="next-button">Next Question</button>
+        <button id="next-button">Next Question</button> <!-- Button to proceed to the next question after selecting an answer -->
+        
         <!-- Container to display the final score -->
-        <div id="score-container"></div>
+        <div id="score-container"></div> <!-- This will be used to display the user’s score after the quiz is finished -->
     </div>
     <!-- Link to external JavaScript file -->
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Connects to an external JavaScript file (script.js) to add functionality to the quiz, like updating questions and score -->
 </body>
 </html>
 
