@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List App</title>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document (UTF-8) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design on mobile devices -->
+    <title>To-Do List App</title> <!-- Title of the webpage, displayed in the browser tab -->
     <!-- Link to the external CSS file for styling -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the CSS file for styling the app -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Main container for the app -->
         <!-- Main title of the To-Do List app -->
-        <h1>To-Do List</h1>
+        <h1>To-Do List</h1> <!-- Heading for the app, styled as a main title -->
         
         <!-- Form for adding new tasks -->
-        <form id="todo-form">
-            <input type="text" id="todo-input" placeholder="Enter a new task" required>
-            <button type="submit">Add Task</button>
+        <form id="todo-form"> <!-- Form element with an ID for JavaScript access -->
+            <input type="text" id="todo-input" placeholder="Enter a new task" required> <!-- Text input for entering tasks; required field -->
+            <button type="submit">Add Task</button> <!-- Button to submit the form and add the task -->
         </form>
         
         <!-- Unordered list to display the tasks -->
-        <ul id="todo-list"></ul>
+        <ul id="todo-list"></ul> <!-- List element that will hold the tasks dynamically -->
     </div>
     
     <!-- Link to the external JavaScript file for functionality -->
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- Links to the JavaScript file for functionality -->
 </body>
 </html>
+
 
 
 

@@ -1,53 +1,53 @@
 /* Basic styles for the body to center content */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: Arial, sans-serif; /* Sets the font for the entire body */
+    background-color: #f4f4f4; /* Light gray background color */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
     height: 100vh; /* Full viewport height */
 }
 
 /* Container styles for the main content */
 .container {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background: white; /* White background for the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
     width: 300px; /* Fixed width for the container */
 }
 
 /* Styles for the main heading */
 h1 {
-    text-align: center;
+    text-align: center; /* Centers the heading text */
     margin-bottom: 20px; /* Space below the heading */
 }
 
 /* Styles for the form layout */
 form {
-    display: flex;
+    display: flex; /* Enables flexbox layout for the form */
     justify-content: space-between; /* Space between input and button */
     margin-bottom: 20px; /* Space below the form */
 }
 
 /* Styles for the input field */
 input[type="text"] {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    flex: 1; /* Allows the input to take up remaining space */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
     margin-right: 10px; /* Space between input and button */
 }
 
 /* Styles for the button */
 button {
-    padding: 10px;
-    border: none;
+    padding: 10px; /* Padding inside the button */
+    border: none; /* Removes border */
     background-color: #28a745; /* Green background */
-    color: white;
-    border-radius: 5px;
+    color: white; /* White text color */
+    border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
 }
 
@@ -58,24 +58,24 @@ button:hover {
 
 /* Styles for the unordered list */
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
 }
 
 /* Styles for each list item */
 li {
-    background: #f9f9f9;
+    background: #f9f9f9; /* Light background for list items */
     margin-bottom: 10px; /* Space between list items */
-    padding: 10px;
-    border-radius: 5px;
-    display: flex;
+    padding: 10px; /* Padding inside list items */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Enables flexbox layout for list items */
     justify-content: space-between; /* Space between checkbox, text, and button */
-    align-items: center;
+    align-items: center; /* Centers items vertically */
 }
 
 /* Styles for completed tasks */
 li.completed {
-    text-decoration: line-through;
+    text-decoration: line-through; /* Strikethrough effect for completed tasks */
     color: #999; /* Gray color for completed tasks */
 }
 
@@ -87,10 +87,10 @@ input[type="checkbox"] {
 /* Styles for the delete button */
 .delete-btn {
     background-color: #dc3545; /* Red background */
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
+    color: white; /* White text color */
+    border: none; /* Removes border */
+    padding: 5px 10px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
 }
 
@@ -98,6 +98,7 @@ input[type="checkbox"] {
 .delete-btn:hover {
     background-color: #c82333; /* Darker red on hover */
 }
+
 
 
 
