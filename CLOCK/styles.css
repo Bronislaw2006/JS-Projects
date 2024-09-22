@@ -1,24 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif; /* Sets the font of the page to Arial or a default sans-serif font */
+    display: flex; /* Uses flexbox layout to center the clock container */
+    justify-content: center; /* Centers the clock container horizontally */
+    align-items: center; /* Centers the clock container vertically */
+    height: 100vh; /* Makes the body take up 100% of the viewport height */
+    margin: 0; /* Removes the default margin around the body */
+    background-color: #f0f0f0; /* Sets a light gray background color for the page */
 }
 
 #clock-container {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    padding: 20px;
-    width: 200px;
-    text-align: center;
+    background: #fff; /* Sets the background color of the clock container to white */
+    border-radius: 8px; /* Rounds the corners of the clock container */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the clock container to give it depth */
+    padding: 20px; /* Adds padding inside the clock container for spacing */
+    width: 200px; /* Sets a fixed width for the clock container */
+    text-align: center; /* Centers the text (the clock) inside the container */
 }
 
 #clock {
-    font-size: 48px;
-    font-weight: bold;
-    color: #333;
+    font-size: 48px; /* Sets a large font size for the clock */
+    font-weight: bold; /* Makes the clock text bold */
+    color: #333; /* Sets the clock text color to a dark gray */
 }
